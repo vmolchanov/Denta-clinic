@@ -228,6 +228,10 @@ footer address {
 	text-decoration: underline;
 }
 
+.how-find:hover {
+	color: #959898;
+}
+
 .foot-center {
 	color: #959898;
 	font-size: 11pt;
@@ -260,6 +264,10 @@ footer address {
 .site {
 	color: #959898;
 	text-decoration: underline;
+}
+
+.site:hover {
+	color: #67a617;
 }
 
 .foot-right p:first-child {
