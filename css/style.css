@@ -17,7 +17,6 @@ body {
 .container {
 	width: 1140px;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
 
 .clearfix::after {
@@ -76,7 +75,7 @@ nav {
 
 .accordion-item,
 .accordion-inner {
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 .accordion-item a {
@@ -96,11 +95,23 @@ nav {
 	text-decoration: underline;
 }
 
+nav div {
+	padding-left: 5px;
+}
+
+nav div:hover {
+	background-color: #67a617;
+	border-radius: 15px;
+}
+
+.accordion-inner-item {
+	padding-left: 5px;
+}
+
 /*=======  main  =======*/
 
 main {
 	font-size: 11pt;
-	/*border: 1px solid red;*/
 }
 
 main .block1 {
@@ -198,6 +209,10 @@ aside a {
 .article-block {
 	margin-top: 34px;
 	margin-bottom: 16px;
+}
+
+.info {
+	margin-top: 26px;
 }
 
 /*=======  footer  =======*/
